@@ -141,3 +141,125 @@ a:hover {
 .hamburger-icon span  :first-child {
     transform : none;
 }
+
+/* Profile */
+section {
+    padding-top: 4wh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.section-container {
+    display : flex;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;  
+}
+.sectin_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+
+
+}
+.Section__text  {
+   align-self: center;
+   text-align: center;
+    height: 50vh;
+    gap: 1rem;
+    margin: auto 0;
+
+}
+.Section__text p {
+    font-weight: 600;
+}
+.section__text_p1 {
+    text-align: center;
+}
+.section__text_p1 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+.section__text_p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make the profile picture round */
+}
+
+.Section__text {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-color-1 , .btn-color-2{
+    border: rgb( 53,53 green,53 blue) 0.1rem solid;
+}
+
+.btn-color-1:hover , .btn-color-2:hover{
+cursor: pointer;
+}
+
+.btn-color-1:hover , .btn-color-2:hover{
+    background: grey;
+    color: white;
+}
+/* .btn-color-1:hover {
+    background: rgb( 0,0 green,0 blue);
+} */
+.btn-color-2 {
+    background: none;
+}
+.btn-color-2:hover {
+    border: rgb( 255,255 green,255 blue) 0.1rem solid;  
+}
+.btn-container {
+    gap: 1rem   ;
+}
+
+#social-container {
+    display: flex   ;
+    margin-top: 1rem;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
